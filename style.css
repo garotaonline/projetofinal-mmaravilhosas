@@ -1,0 +1,514 @@
+/* RESET CSS */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 2px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+
+/* NAVBAR */
+.navegacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0906;
+  position: sticky;
+}
+
+.navegacao_logo {
+  margin: auto;
+  max-width: 250px;
+  padding: 15px;
+}
+
+
+
+/* -------------------------------------------------------------------------------- */
+
+
+/* HEADER */
+
+header {
+  background-color: #8c502d;
+  padding-bottom: 30px;
+}
+
+header h1 {
+  color: white;
+  padding: 40px 40px 10px 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/* --- BOTAO --- */
+header button {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: #0d0906;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Caveat', cursive;
+  font-family: 'Cinzel', serif;
+}
+
+header button:hover {
+  background-color: #eeab73;
+  font-size: 15px;
+}
+
+/*********** HEADER   *********/
+
+
+
+/* SECAO Maravilhosa */
+.sobre {
+  background-color: #eeab73;
+  padding: 10px;
+}
+
+.sobre_titulo {
+  font-size: 50px;
+  color: #4b2916;
+  display: flex;
+  justify-content: center;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.alerta {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: 'Caveat', cursive;
+  font-family: 'Cinzel', serif;
+  color: white;
+  padding: 10px;
+}
+
+.alerta:hover {
+  color: #0d0906;
+}
+
+.sobre_frase {
+  color: #4b2916;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  border: #e8ae46 double 5px;
+  border-radius: 10px;
+  margin: 10px 25px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Twinkle Star', cursive;
+}
+
+.sobre img {
+  max-width: 200px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.sobre_texto {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  margin: 10px 20px;
+  font-family: 'Caveat', cursive;
+  font-family: 'Cinzel', serif;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.jornada_titulo {
+  color: #4b2916;
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+}
+
+.jornada h2 {
+  font-family: 'Dancing Script', cursive;
+  color: #e8ae46;
+  background-color: #4b2916;
+  padding: 15px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.jornada img {
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.jornada p {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  margin: 30px 35px;
+  font-family: 'Caveat', cursive;
+  font-family: 'Cinzel', serif;
+  font-weight: bolder;
+  font-size: 15px;
+  padding-bottom: 25px;
+}
+
+
+
+/* AUTORA */
+
+.creditos {
+  background-color: #8c502d;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 30px 10px 100px;
+}
+
+.autora h1 {
+  margin-top: 20px;
+}
+
+.creditos h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+}
+
+.creditos img {
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.creditos p {
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: 'Caveat', cursive;
+  font-family: 'Cinzel', serif;
+  font-weight: bolder;
+}
+
+
+/* SECAO Recado */
+
+form {
+  margin: 80px 0px;
+}
+
+form label {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-family: 'Caveat', cursive;
+  font-family: 'Cinzel', serif;
+}
+
+form input {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 250px;
+  height: 30px;
+}
+
+form button {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: #0d0906;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Caveat', cursive;
+  font-family: 'Cinzel', serif;
+}
+
+form button:hover {
+  background-color: #eeab73;
+  font-size: 15px;
+}
+
+form p {
+  color: #4b2916;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  border: #e8ae46 double 5px;
+  border-radius: 10px;
+  margin: 10px 25px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Twinkle Star', cursive;
+  font-size: 25px;
+}
+
+
+/* FOOTER */
+
+.footer_container1 {
+  background-color: #eeab73;
+  padding: 20px;
+}
+
+.footer_navegacao a {
+  font-size: 22px;
+  color: #8c502d;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer_navegacao a:hover {
+  color: white;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+} 
+
+.footer_redes_container1 img {
+  max-width: 100px;
+  padding: 5px;
+}
+
+.footer_redes_container1 {
+  display: flex;
+  justify-content: center;
+}
+
+.footer_container2 {
+  padding: 20px;
+  color: #eeab73;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #8c502d;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 600px) {
+/* header */
+   header h1 {
+    font-size: 50px;
+   }
+
+   header button {
+     font-size: 20px;
+   }
+
+   header button:hover {
+    font-size: 25px;
+  }
+
+/* seção */
+
+   .alerta {
+     font-size: 35px;
+    }
+
+   .sobre_titulo {
+     font-size: 70px;
+   }
+
+   .sobre_frase {
+     font-size: 40px;
+   }
+
+   .sobre_juntar {
+     margin-top: 30px;
+   }
+
+   .sobre img {
+     max-width: 250px;
+   }
+
+   .sobre_texto {
+     font-size: 20px;
+   }
+
+   .jornada_titulo {
+     font-size: 80px;
+   }
+
+   .jornada img {
+     max-width: 250px;
+     margin: auto;
+     margin-top: 50px;
+     margin-bottom: 40px;
+   }
+
+   .jornada h2 {
+     font-size: 50px;
+   }
+
+   .jornada p {
+     font-size: 20px;
+   }
+
+/* formulario */
+
+  form button {
+  font-size: 20px;
+}
+
+  form button:hover {
+  font-size: 25px;
+}
+
+/* creditos */
+   
+   .creditos {
+     padding: 30px;
+   }
+
+   .creditos p {
+     font-size: 20px;
+   }
+
+
+/* footer */
+
+  .footer_container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer_navegacao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer_redes_container1 {
+    display: flex;
+    justify-content: center;
+  }
+ 
+}
+
+@media screen and (min-width: 800px) {
+
+  .sobre_juntar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .sobre img {
+    margin: 20px 40px;
+  }
+
+  .sobre_texto {
+    margin: 20px 40px;
+  }
+
+  .jornada div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .jornada img {
+    margin: 20px 40px;
+  }
+
+  .jornada p {
+    margin: 20px 40px;
+  }
+
+  .creditos {
+    margin: 100px;
+  }
+
+  .autora div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .autora img {
+    margin: 20px;
+  }
+
+  .escritora div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .escritora img {
+    margin: 20px;
+  }
+
+  .creditos p {
+    padding: 20px;
+  }
+
+/* formulario */
+
+  form label {
+    font-size: 40px;
+  }
+
+  form input {
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+  }
+
+  form p {
+    font-size: 40px;
+    margin: 20px 200px;
+  }
+}
